@@ -1,0 +1,17 @@
+//
+//  PrefixHeader.pch
+//  LanuchAdvertDemo
+//
+//  Created by MacYin on 2018/2/4.
+//  Copyright © 2018年 MacYin. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define IPHONE_WIDTH  [UIScreen mainScreen].bounds.size.width
+#define IPHONE_Height [UIScreen mainScreen].bounds.size.height
+
+#define KUserDefaults [NSUserDefaults standardUserDefaults]
+
+#endif /* PrefixHeader_pch */
